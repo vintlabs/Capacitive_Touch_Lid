@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+LIBS:Capacitive_Touch_Lid-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5E065CE4
+P 8300 3350
+F 0 "J1" H 8350 4467 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 8350 4376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical_SMD" H 8300 3350 50  0001 C CNN
+F 3 "~" H 8300 3350 50  0001 C CNN
+	1    8300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Variable C1
+U 1 1 5E066159
+P 6650 4550
+F 0 "C1" H 6765 4596 50  0000 L CNN
+F 1 "C_Variable" H 6765 4505 50  0000 L CNN
+F 2 "Capacitive_Touch_Lid:Round Touch Pad" H 6650 4550 50  0001 C CNN
+F 3 "~" H 6650 4550 50  0001 C CNN
+	1    6650 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6650 4700
+Wire Wire Line
+	6650 4400 6650 4050
+$Comp
+L power:GND #PWR0101
+U 1 1 5E066921
+P 7250 3750
+F 0 "#PWR0101" H 7250 3500 50  0001 C CNN
+F 1 "GND" H 7255 3577 50  0000 C CNN
+F 2 "" H 7250 3750 50  0001 C CNN
+F 3 "" H 7250 3750 50  0001 C CNN
+	1    7250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E066952
+P 9000 4050
+F 0 "#PWR0102" H 9000 3800 50  0001 C CNN
+F 1 "GND" H 9005 3877 50  0000 C CNN
+F 2 "" H 9000 4050 50  0001 C CNN
+F 3 "" H 9000 4050 50  0001 C CNN
+	1    9000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2850 7250 3650
+$Comp
+L power:GND #PWR0103
+U 1 1 5E066A9C
+P 8000 4350
+F 0 "#PWR0103" H 8000 4100 50  0001 C CNN
+F 1 "GND" H 8005 4177 50  0000 C CNN
+F 2 "" H 8000 4350 50  0001 C CNN
+F 3 "" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4050 9000 3850
+Connection ~ 9000 4050
+Wire Wire Line
+	9000 3350 9000 3850
+Connection ~ 9000 3850
+Wire Wire Line
+	9000 3050 9000 3350
+Connection ~ 9000 3350
+$Comp
+L Device:C_Variable C3
+U 1 1 5E066F85
+P 6100 3300
+F 0 "C3" H 6215 3346 50  0000 L CNN
+F 1 "C_Variable" H 6215 3255 50  0000 L CNN
+F 2 "Capacitive_Touch_Lid:Round Touch Pad" H 6100 3300 50  0001 C CNN
+F 3 "~" H 6100 3300 50  0001 C CNN
+	1    6100 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 3450
+$Comp
+L Device:C_Variable C2
+U 1 1 5E0670EE
+P 6100 3800
+F 0 "C2" H 6215 3846 50  0000 L CNN
+F 1 "C_Variable" H 6215 3755 50  0000 L CNN
+F 2 "Capacitive_Touch_Lid:Round Touch Pad" H 6100 3800 50  0001 C CNN
+F 3 "~" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6100 3950
+Wire Wire Line
+	6100 3600 6100 3650
+Wire Wire Line
+	6100 3600 7100 3600
+$Comp
+L Device:LED D1
+U 1 1 5E068992
+P 8750 4800
+F 0 "D1" V 8788 4683 50  0000 R CNN
+F 1 "LED" V 8697 4683 50  0000 R CNN
+F 2 "Capacitive_Touch_Lid:HLMP-Q105 Reverse LED" H 8750 4800 50  0001 C CNN
+F 3 "~" H 8750 4800 50  0001 C CNN
+	1    8750 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E068A5F
+P 8750 5350
+F 0 "R1" H 8820 5396 50  0000 L CNN
+F 1 "R" H 8820 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 5350 50  0001 C CNN
+F 3 "~" H 8750 5350 50  0001 C CNN
+	1    8750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E068AAB
+P 8750 5500
+F 0 "#PWR0104" H 8750 5250 50  0001 C CNN
+F 1 "GND" H 8755 5327 50  0000 C CNN
+F 2 "" H 8750 5500 50  0001 C CNN
+F 3 "" H 8750 5500 50  0001 C CNN
+	1    8750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E068C48
+P 9100 4800
+F 0 "D2" V 9138 4683 50  0000 R CNN
+F 1 "LED" V 9047 4683 50  0000 R CNN
+F 2 "Capacitive_Touch_Lid:HLMP-Q105 Reverse LED" H 9100 4800 50  0001 C CNN
+F 3 "~" H 9100 4800 50  0001 C CNN
+	1    9100 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E068C4F
+P 9100 5350
+F 0 "R2" H 9170 5396 50  0000 L CNN
+F 1 "R" H 9170 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9030 5350 50  0001 C CNN
+F 3 "~" H 9100 5350 50  0001 C CNN
+	1    9100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E068C56
+P 9100 5500
+F 0 "#PWR0105" H 9100 5250 50  0001 C CNN
+F 1 "GND" H 9105 5327 50  0000 C CNN
+F 2 "" H 9100 5500 50  0001 C CNN
+F 3 "" H 9100 5500 50  0001 C CNN
+	1    9100 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4250 8750 4650
+Wire Wire Line
+	9100 4150 9100 4650
+Wire Wire Line
+	6650 4050 8000 4050
+Wire Wire Line
+	7250 2850 8000 2850
+Wire Wire Line
+	7250 3650 8000 3650
+Wire Wire Line
+	6100 3150 8000 3150
+Connection ~ 7250 3650
+Wire Wire Line
+	7250 3650 7250 3750
+Wire Wire Line
+	7100 3600 7100 3350
+Wire Wire Line
+	7100 3350 8000 3350
+Wire Wire Line
+	8500 4150 9100 4150
+Wire Wire Line
+	8500 4250 8750 4250
+Wire Wire Line
+	8500 3050 9000 3050
+Wire Wire Line
+	8500 3350 9000 3350
+Wire Wire Line
+	8500 3850 9000 3850
+Wire Wire Line
+	8500 4050 9000 4050
+$Comp
+L Device:C C4
+U 1 1 5E074912
+P 8400 5350
+F 0 "C4" H 8515 5396 50  0000 L CNN
+F 1 "C" H 8515 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 5200 50  0001 C CNN
+F 3 "~" H 8400 5350 50  0001 C CNN
+	1    8400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5E074989
+P 9500 5350
+F 0 "C5" H 9615 5396 50  0000 L CNN
+F 1 "C" H 9615 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9538 5200 50  0001 C CNN
+F 3 "~" H 9500 5350 50  0001 C CNN
+	1    9500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4950 8750 5200
+Wire Wire Line
+	9100 4950 9100 5200
+Wire Wire Line
+	9500 5200 9100 5200
+Connection ~ 9100 5200
+Wire Wire Line
+	8750 5200 8400 5200
+Connection ~ 8750 5200
+$Comp
+L power:GND #PWR01
+U 1 1 5E07548A
+P 8400 5500
+F 0 "#PWR01" H 8400 5250 50  0001 C CNN
+F 1 "GND" H 8405 5327 50  0000 C CNN
+F 2 "" H 8400 5500 50  0001 C CNN
+F 3 "" H 8400 5500 50  0001 C CNN
+	1    8400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E075708
+P 9500 5500
+F 0 "#PWR02" H 9500 5250 50  0001 C CNN
+F 1 "GND" H 9505 5327 50  0000 C CNN
+F 2 "" H 9500 5500 50  0001 C CNN
+F 3 "" H 9500 5500 50  0001 C CNN
+	1    9500 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
